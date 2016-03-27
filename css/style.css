@@ -12,7 +12,17 @@
 .color-logo-fundo {
 	background-color: #FF4C00;
 }
-
+.fundo{
+	/*position: fixed;*/
+	background:  url("../images/fundo_topo.jpg") fixed no-repeat top left;
+	/*border-image-repeat: no-repeat;*/
+	width: 100%;
+	/*background-image: url("../images/fundo_topo.jpg");*/
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
 
 .font-thin {
 	font-family: "Titillium Web", sans-serif;
@@ -225,7 +235,7 @@ body {
 }
 
 #slide-1 {
-	background-image: url("../images/fundo_topo.jpg");
+	/*background-image: url("../images/fundo_topo.jpg");*/
 	/*background-image: url('../images/bg1.jpg');*/
 	color: #ffffff;
     -webkit-background-size: 100%;
@@ -466,7 +476,7 @@ body {
 }
 
 #slide-6 {
-	background-color: #2f2f2f;
+	/*background-color: #2f2f2f;*/
 	color: #e4e6e5;
 	padding-bottom: 350px;
 	padding-top: 90px;
@@ -620,3 +630,4 @@ body {
 .navigation-slide {
 	cursor: pointer;
 }
+/*
