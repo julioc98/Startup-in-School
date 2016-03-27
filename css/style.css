@@ -7,7 +7,9 @@
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
 	.fundo{
-		background:  url("../images/fundo_topo.jpg") fixed no-repeat top left;
+		/*background:  url("../images/fundo_topo.jpg") fixed no-repeat top left;*/
+		/*-webkit-filter: sepia(1);
+    	filter: sepia(1);*/
 	}
 }
 
@@ -27,6 +29,12 @@
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+	#slide-4{
+		background-color: #34495e;
+	}
+	#slide-5{
+		background-color: #f39c12;
+	}
 
 }
 
@@ -486,7 +494,7 @@ body {
 }
 
 #slide-4 {
-	background-color: #34495e;
+	/*background-color: #34495e;*/
 	color: #e4e6e5;
 	padding-top: 90px;
 }
@@ -498,7 +506,7 @@ body {
 
 
 #slide-5 {
-	background-color: #f39c12;
+	/*background-color: #f39c12;*/
 	color: #e4e6e5;
 	padding-top: 90px;
 }
