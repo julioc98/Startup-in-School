@@ -4,17 +4,39 @@
  *
  *
  */
-
-
-.color-logo {
-	color: #FF4C00;
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+	.fundo{
+		background:  url("../images/fundo_topo.jpg") fixed no-repeat top left;
+	}
 }
-.color-logo-fundo {
-	background-color: #FF4C00;
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.fundo{
+		background:  url("../images/fundo_topo.jpg") fixed no-repeat top left;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.fundo{
+		background:  url("../images/fundo_topo.jpg") fixed no-repeat top left;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
 }
 .fundo{
 	/*position: fixed;*/
-	background:  url("../images/fundo_topo.jpg") fixed no-repeat top left;
+	/*background:  url("../images/fundo_topo.jpg") fixed no-repeat top left;*/
 	/*border-image-repeat: no-repeat;*/
 	width: 100%;
 	/*background-image: url("../images/fundo_topo.jpg");*/
@@ -22,6 +44,12 @@
     -moz-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
+}
+.color-logo {
+	color: #FF4C00;
+}
+.color-logo-fundo {
+	background-color: #FF4C00;
 }
 
 .font-thin {
