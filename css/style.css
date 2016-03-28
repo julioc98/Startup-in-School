@@ -7,7 +7,7 @@
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
 	.fundo{
-		/*background:  url("../images/fundo_topo.jpg") fixed no-repeat top left;*/
+		background:  url("../images/fundo_topo3.jpg") fixed no-repeat top left;
 		/*-webkit-filter: sepia(1);
     	filter: sepia(1);*/
 	}
@@ -16,7 +16,7 @@
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
 	.fundo{
-		background:  url("../images/fundo_topo.jpg") fixed no-repeat top left;
+		background:  url("../images/fundo_topo2.jpg") fixed no-repeat top left;
 	}
 }
 
