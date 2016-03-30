@@ -11,19 +11,31 @@
 		/*-webkit-filter: sepia(1);
     	filter: sepia(1);*/
 	}
+	.img-logo{
+		width: 658px;
+		height: 333px ;
+	}
 }
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
 	.fundo{
-		background:  url("../images/fundo_topo2.jpg") fixed no-repeat top left;
+		background:  url("../images/fundo_topo3.jpg") fixed no-repeat top left;
+	}
+	.img-logo{
+		width: 439px;
+		height: 222px ;
 	}
 }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
 	.fundo{
-		background:  url("../images/fundo_topo.jpg") fixed no-repeat top left;
+		background:  url("../images/fundo_topo3.jpg") fixed no-repeat top left;
+	}
+	.img-logo{
+		width: 439px;
+		height: 222px ;
 	}
 }
 
@@ -35,11 +47,19 @@
 	#slide-5{
 		background-color: #f39c12;
 	}
+	.img-logo{
+		width: 219px ;
+		height: 111px ;
+	}
 
 }
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
+	.img-logo{
+		width: 219px ;
+		height: 111px ;
+	}
 
 }
 .fundo{
