@@ -1,5 +1,12 @@
 /*
  *
+784a97 roxo
+
+00A4C1 azul
+
+E84F1D laranja
+
+E8436D rosa
  *
  *
  *
@@ -73,11 +80,21 @@
     -o-background-size: 100%;
     background-size: 100%;
 }
-.color-logo {
-	color: #FF4C00;
+ footer{
+ 	background-color: #784a97;
+ 	color:  #E84F1D;
+ }
+.color-logo-laranja {
+	color: #E84F1D; /*laranja*/
 }
-.color-logo-fundo {
-	background-color: #FF4C00;
+.color-logo-roxo {
+	color: #784a97; /*roxo*/
+}
+.color-logo-rosa {
+	color: #E8436D; /*rosa*/
+}
+.color-logo-azul {
+	color: #00A4C1; /*azul*/
 }
 
 .font-thin {
@@ -124,8 +141,17 @@ body {
 }
 
 .navbar {
+	/*laranja*/
+		/*background-color: #E84F1D; */
+	/*roxo*/
+		background-color: #784a97;  
+	/*rosa*/
+	 	/*background-color: #E8436D;*/
+	/*azul*/
+		/*background-color: #00A4C1;*/
+
 	/*background-color: #e4e6e5;*/
-	background-color: #FF4C00;
+	/*background-color: #FF4C00;*/
 	/*background-color: rgba( 228, 230, 229, .85 );*/
 	border-bottom: 0 none;
 	font-size: 12px;
@@ -138,13 +164,22 @@ body {
 }
 
 .navbar .nav a {
-	color: #5f5f5f;
+	/*laranja*/
+		/*color: #E84F1D; */
+	/*roxo*/
+		/*color: #784a97;  */
+	/*rosa*/
+	 	/*color: #E8436D;*/
+	/*azul*/
+		color: #00A4C1;
+
+	/*color: #5f5f5f;*/
 	/*color: #FF4C00;*/
 	font-family: "Titillium Web", sans-serif;
 	font-weight: 600;
 	transition: all .5 linear;
 }
-
+/**/
 .navbar.inv a {
 	color: #e4e6e5;
 }
