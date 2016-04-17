@@ -14,7 +14,7 @@ E8436D rosa
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
 	.fundo{
-		background:  url("../images/fundo_topo3.jpg") fixed no-repeat top left;
+		background:  url("../images/fundo_topo7.jpg") fixed no-repeat top left;
 		/*-webkit-filter: sepia(1);
     	filter: sepia(1);*/
 	}
@@ -27,7 +27,7 @@ E8436D rosa
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
 	.fundo{
-		background:  url("../images/fundo_topo3.jpg") fixed no-repeat top left;
+		background:  url("../images/fundo_topo7.jpg") fixed no-repeat top left;
 	}
 	.img-logo{
 		width: 439px;
@@ -38,7 +38,7 @@ E8436D rosa
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
 	.fundo{
-		background:  url("../images/fundo_topo3.jpg") fixed no-repeat top left;
+		background:  url("../images/fundo_topo6.jpg") fixed no-repeat top left;
 	}
 	.img-logo{
 		width: 439px;
@@ -68,6 +68,23 @@ E8436D rosa
 		height: 111px ;
 	}
 
+}
+.btn-call{
+	/*width: 219px ;
+	height: 111px ;*/
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: transparent;
+	border-color: #FFFFFF;
+}
+.btn-call:hover{
+	color: #E84F1D;
+	background-color: #FFFFFF ;
+	border-color: #E84F1D;
+}
+.logo-ideias{
+	width: 219px ;
+	height: 111px ;
 }
 .fundo{
 	/*position: fixed;*/
@@ -154,7 +171,7 @@ body {
 	/*background-color: #FF4C00;*/
 	/*background-color: rgba( 228, 230, 229, .85 );*/
 	border-bottom: 0 none;
-	font-size: 12px;
+	font-size: 13px;
 	transition: .25s all linear;
 }
 
@@ -502,10 +519,15 @@ body {
 	
 	#slide-3 .col-12 {
 		display: inline-block;
-		height: 451px;
+		/*height: 301px;*/
+		/*height: 452px;*/
+		height: 350px;
 		margin: 0;
 		padding: 0;
-		width: 452px;
+		width: 525px;
+		/*width: 678px;*/
+		/*width: 452px;*/
+
 	}
 
 	#slide-3 a,
@@ -562,6 +584,14 @@ body {
 
 #slide-5 {
 	/*background-color: #f39c12;*/
+	/*laranja*/
+		/*background-color: #E84F1D; */
+	/*roxo*/
+		background-color: #784a97;  
+	/*rosa*/
+	 	/*background-color: #E8436D;*/
+	/*azul*/
+		/*background-color: #00A4C1;*/
 	color: #e4e6e5;
 	padding-top: 90px;
 }
@@ -580,7 +610,7 @@ body {
 }
 	
 	#slide-6 .line-row .hr {
-		background-color: #4e4e4e;
+		background-color: #e4e6e5;
 		color: #4e4e4e;
 	}
 
