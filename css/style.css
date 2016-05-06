@@ -22,6 +22,9 @@ E8436D rosa
 		width: 658px;
 		height: 333px ;
 	}
+	.mobile-logo{
+		display: none;
+	}
 }
 
 /* Landscape tablets and medium desktops */
@@ -33,6 +36,12 @@ E8436D rosa
 		width: 439px;
 		height: 222px ;
 	}
+    .comp-logo{
+		display: none;
+	}
+	.mobile-logo{
+		display: none;
+	}
 }
 
 /* Portrait tablets and small desktops */
@@ -43,6 +52,9 @@ E8436D rosa
 	.img-logo{
 		width: 439px;
 		height: 222px ;
+	}
+	.mobile-logo{
+		display: none;
 	}
 }
 
@@ -58,6 +70,9 @@ E8436D rosa
 		width: 219px ;
 		height: 111px ;
 	}
+	.comp-logo{
+		display: none;
+	}
 
 }
 
@@ -67,8 +82,16 @@ E8436D rosa
 		width: 219px ;
 		height: 111px ;
 	}
+    .comp-logo{
+		display: none;
+	}
 
 }
+
+.logo-nav*{
+		width: 100px ;
+		height: 100px ;
+	}
 .link-site-ideias{
 	color:#E84F1D !important;
 
@@ -166,11 +189,13 @@ body {
 	/*laranja*/
 		/*background-color: #E84F1D; */
 	/*roxo*/
-		background-color: #784a97;  
+		/*background-color: #784a97; #6d4b94 */
 	/*rosa*/
 	 	/*background-color: #E8436D;*/
 	/*azul*/
 		/*background-color: #00A4C1;*/
+	/*branco*/
+		background-color: #FFFFFF; 	
 
 	/*background-color: #e4e6e5;*/
 	/*background-color: #FF4C00;*/
@@ -189,11 +214,12 @@ body {
 	/*laranja*/
 		/*color: #E84F1D; */
 	/*roxo*/
-		/*color: #784a97;  */
+		color: #6d4b94;  
 	/*rosa*/
 	 	/*color: #E8436D;*/
 	/*azul*/
-		color: #00A4C1;
+		/*color: #00A4C1;*/
+		
 
 	/*color: #5f5f5f;*/
 	/*color: #FF4C00;*/
