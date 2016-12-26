@@ -1,16 +1,146 @@
 /*
  *
+ *784a97 roxo
+ *
+ *00A4C1 azul
+ *
+ *E84F1D laranja
+ *
+ *E8436D rosa
  *
  *
  *
  */
 
-
-.color-logo {
-	color: #FF4C00;
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+	.fundo{
+		background:  url("../images/fundo_topo7.jpg") fixed no-repeat top left;
+		/*-webkit-filter: sepia(1);
+    	filter: sepia(1);*/
+	}
+	.img-logo{
+		width: 658px;
+		height: 333px ;
+	}
+	.mobile-logo{
+		display: none;
+	}
 }
-.color-logo-fundo {
-	background-color: #FF4C00;
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.fundo{
+		background:  url("../images/fundo_topo7.jpg") fixed no-repeat top left;
+	}
+	.img-logo{
+		width: 439px;
+		height: 222px ;
+	}
+    .comp-logo{
+		display: none;
+	}
+	.mobile-logo{
+		display: none;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.fundo{
+		background:  url("../images/fundo_topo6.jpg") fixed no-repeat top left;
+	}
+	.img-logo{
+		width: 439px;
+		height: 222px ;
+	}
+	.mobile-logo{
+		display: none;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	#slide-4{
+		background-color: #34495e;
+	}
+	#slide-5{
+		background-color: #f39c12;
+	}
+	.img-logo{
+		width: 219px ;
+		height: 111px ;
+	}
+	.comp-logo{
+		display: none;
+	}
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	.img-logo{
+		width: 219px ;
+		height: 111px ;
+	}
+    .comp-logo{
+		display: none;
+	}
+
+}
+
+.logo-nav*{
+		width: 100px ;
+		height: 100px ;
+	}
+.link-site-ideias{
+	color:#E84F1D !important;
+
+
+}
+.btn-call{
+	/*width: 219px ;
+	height: 111px ;*/
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: transparent;
+	border-color: #FFFFFF;
+}
+.btn-call:hover{
+	color: #E84F1D;
+	background-color: #FFFFFF ;
+	border-color: #E84F1D;
+}
+.logo-ideias{
+	width: 219px ;
+	height: 111px ;
+}
+.fundo{
+	/*position: fixed;*/
+	/*background:  url("../images/fundo_topo.jpg") fixed no-repeat top left;*/
+	/*border-image-repeat: no-repeat;*/
+	width: 100%;
+	/*background-image: url("../images/fundo_topo.jpg");*/
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+ footer{
+ 	background-color: #784a97;
+ 	color:  #E84F1D;
+ }
+.color-logo-laranja {
+	color: #E84F1D; /*laranja*/
+}
+.color-logo-roxo {
+	color: #784a97; /*roxo*/
+}
+.color-logo-rosa {
+	color: #E8436D; /*rosa*/
+}
+.color-logo-azul {
+	color: #00A4C1; /*azul*/
 }
 
 
@@ -58,11 +188,21 @@ body {
 }
 
 .navbar {
+	/*laranja*/
+		/*background-color: #E84F1D; */
+	/*roxo*/
+		/*background-color: #784a97; #6d4b94 */
+	/*rosa*/
+	 	/*background-color: #E8436D;*/
+	/*azul*/
+		/*background-color: #00A4C1;*/
+	/*branco*/
+		background-color: #FFFFFF; 	
 	/*background-color: #e4e6e5;*/
-	background-color: #FF4C00;
+	/*background-color: #FF4C00;*/
 	/*background-color: rgba( 228, 230, 229, .85 );*/
 	border-bottom: 0 none;
-	font-size: 12px;
+	font-size: 13px;
 	transition: .25s all linear;
 }
 
@@ -72,7 +212,17 @@ body {
 }
 
 .navbar .nav a {
-	color: #5f5f5f;
+	/*laranja*/
+		/*color: #E84F1D; */
+	/*roxo*/
+		color: #6d4b94;  
+	/*rosa*/
+	 	/*color: #E8436D;*/
+	/*azul*/
+		/*color: #00A4C1;*/
+		
+	/*color: #5f5f5f;*/
+
 	/*color: #FF4C00;*/
 	font-family: "Titillium Web", sans-serif;
 	font-weight: 600;
@@ -225,7 +375,9 @@ body {
 }
 
 #slide-1 {
-	background-image: url('../images/bg1.jpg');
+
+	/*background-image: url("../images/fundo_topo.jpg");*/
+	/*background-image: url('../images/bg1.jpg');*/
 	color: #ffffff;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -400,10 +552,14 @@ body {
 	
 	#slide-3 .col-12 {
 		display: inline-block;
-		height: 451px;
+		/*height: 301px;*/
+		/*height: 452px;*/
+		height: 350px;
 		margin: 0;
 		padding: 0;
-		width: 452px;
+		width: 525px;
+		/*width: 678px;*/
+		/*width: 452px;*/
 	}
 
 	#slide-3 a,
@@ -447,7 +603,7 @@ body {
 }
 
 #slide-4 {
-	background-color: #34495e;
+	/*background-color: #34495e;*/
 	color: #e4e6e5;
 	padding-top: 90px;
 }
@@ -459,13 +615,22 @@ body {
 
 
 #slide-5 {
-	background-color: #f39c12;
+
+	/*background-color: #f39c12;*/
+	/*laranja*/
+		/*background-color: #E84F1D; */
+	/*roxo*/
+		background-color: #784a97;  
+	/*rosa*/
+	 	/*background-color: #E8436D;*/
+	/*azul*/
+		/*background-color: #00A4C1;*/
 	color: #e4e6e5;
 	padding-top: 90px;
 }
 
 #slide-6 {
-	background-color: #2f2f2f;
+	/*background-color: #2f2f2f;*/
 	color: #e4e6e5;
 	padding-bottom: 350px;
 	padding-top: 90px;
@@ -478,7 +643,7 @@ body {
 }
 	
 	#slide-6 .line-row .hr {
-		background-color: #4e4e4e;
+		background-color: #e4e6e5;
 		color: #4e4e4e;
 	}
 
